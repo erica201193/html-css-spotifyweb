@@ -13,6 +13,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
 .main-container {
     height: 100vh;
     display: flex;
@@ -39,22 +40,161 @@ body {
     align-items: stretch;
 }
 
+.in-line-display {
+    display: inline-block;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.white-color {
+    color: white;
+}
+
+.bottom-p-1rem {
+    padding-bottom: 1rem;
+}
+
+
+/*---------------------------------------------------------
+SIDEBAR 
+----------------------------------------------------------*/
+
 .sidebar {
     width: 200px;
-    background-color: greenyellow;
+    background-color: #000000;
+    color: #717171
 }
+
+/****** Sidebar Logo ******/
+
+
+.sidebar-logo {
+    width: 80%;
+    padding: 1rem;
+}
+
+/****** Sidebar Home/search/library MENU ******/
+
+.sidebar-icon {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.top-menu-btn {
+    padding-left: 1rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.top-menu-btn:hover {
+    border-left: 4px solid rgb(138, 233, 14);
+    color: #D2D2D2
+}
+
+/****** Sidebar PLAYLIST MENU ******/
+
+.sidebar-playlist {
+    padding: 1rem 1rem;
+}
+.plus-icon {
+    font-size: 30px;
+    padding: 0.5rem;
+    color: black;
+    background-color: #a3a3a3;
+    display: inline-block;
+}
+
+.sidebar-playlist li {
+    color: #717171;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 2rem;
+}
+
+/****** Sidebar BOTTOM ******/
+
+.sidebar-bottom {
+    padding: 1rem;
+}
+
+.dowload-btn {
+    height: 25px;
+    vertical-align: middle
+}
+
+.profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #a3a3a3;
+    overflow: hidden;
+
+}
+
+/*---------------------------------------------------------
+BOTTOM PLAYER 
+----------------------------------------------------------*/
+
+.player-container {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    background-color: #282828;
+    color: #717171
+}
+
+.album-img {
+    width: 60px;
+}
+
+.album-title {
+    padding: 0 1rem;
+}
+
+.album-icons {
+    padding: 0 1rem;
+}
+
+.volume-bar {
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #717171;
+}
+
+.volume-bar-progress {
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #a3a3a3;;
+}
+
+
+
+
 
 .top-bar {
     flex-shrink: 0;
     padding: 1rem 0;
-    background-color: aquamarine;
+    background-color: #090B12;
 }
 
-.scroll-content {
-    background-color: rgb(255, 195, 104);
+.main-content {
+    background-color: #141922;
 }
-.player-container {
-    flex-shrink: 0;
-    padding: 1rem 0;
-    background-color: rgb(193, 142, 198);
+
+.logo-img {
+    width: 100px;
 }
+

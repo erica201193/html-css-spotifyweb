@@ -121,6 +121,10 @@ SIDEBAR
     line-height: 2rem;
 }
 
+li .sidebar-playlist {
+    text-decoration: none;
+}
+
 /****** Sidebar BOTTOM ******/
 
 .sidebar-bottom {
@@ -189,7 +193,9 @@ BOTTOM PLAYER
 }
 
 .play-bar-lightgrey {
-    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+    width: 30px;
     background-color: #a3a3a3;
 }
 
@@ -198,9 +204,7 @@ BOTTOM PLAYER
 
 
 
-.volume {
-    position: relative;
-}
+
 .volume-bar {
     width: 100px;
     height: 5px;
@@ -213,8 +217,6 @@ BOTTOM PLAYER
     height: 5px;
     border-radius: 5px;
     background-color: #a3a3a3;
-    position: absolute;
-    top: 0;
 }
 
 

@@ -181,6 +181,18 @@ BOTTOM PLAYER
     padding: 1rem;
 }
 
+.play-bar {
+    height: 5px;
+    border-radius: 5px;
+    background-color: #717171;
+    margin: 0 1rem;
+}
+
+.play-bar-lightgrey {
+    width: 200px;
+    background-color: #a3a3a3;
+}
+
 
 
 

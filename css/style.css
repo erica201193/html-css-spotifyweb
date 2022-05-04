@@ -166,6 +166,29 @@ BOTTOM PLAYER
     padding: 0 1rem;
 }
 
+
+.middle-buttons {
+    width: 40%;
+    max-width: 500px;
+}
+
+.play-buttons {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.play-btn {
+    padding: 1rem;
+}
+
+
+
+
+
+
+.volume {
+    position: relative;
+}
 .volume-bar {
     width: 100px;
     height: 5px;
@@ -174,10 +197,12 @@ BOTTOM PLAYER
 }
 
 .volume-bar-progress {
-    width: 100px;
+    width: 70px;
     height: 5px;
     border-radius: 5px;
-    background-color: #a3a3a3;;
+    background-color: #a3a3a3;
+    position: absolute;
+    top: 0;
 }
 
 
